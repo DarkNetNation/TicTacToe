@@ -49,7 +49,7 @@ public class HelloApplication extends Application {
         if (!buttons[row][col].getText().equals("")) {
             return;
         }
-        buttons[row][col].setText("X" : "O");
+        buttons[row][col].setText("");
 
     }
 }
